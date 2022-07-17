@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200&family=Roboto&family=Rubik&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -68,9 +69,13 @@ html, body {
 }
 
 .container {
-  width: 100vw;
   font-family: "Roboto", sans-serif;
   font-style: italic;
+}
+.container h2 {
+  font-size: 64px;
+  line-height: 1.3;
+  font-weight: medium;
 }
 
 .first-stage {
@@ -102,4 +107,61 @@ html, body {
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
+}
+
+.about-container {
+  padding-top: 56px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.about-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-content h2 {
+  margin-bottom: 40px;
+}
+.about-content hr {
+  width: 384px;
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+.about-content .about-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.about-content .about-text li {
+  line-height: 1.45;
+  font-size: 22px;
+  font-weight: bold;
+}
+.about-content .about-text .about-birth {
+  margin-top: 4px;
+}
+.about-content .about-text .about-school {
+  margin-top: 8px;
+}
+
+.about-list {
+  text-align: center;
+  margin-bottom: 56px;
+}
+.about-list li:before {
+  content: "⬤";
+  color: #891818;
+  font-style: normal;
+  margin-left: 16px;
+}
+.about-list li {
+  line-height: 1.45;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 28px;
 }/*# sourceMappingURL=all.css.map */
