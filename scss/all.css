@@ -157,11 +157,43 @@ html, body {
   content: "⬤";
   color: #891818;
   font-style: normal;
-  margin-left: 16px;
+  margin-right: 16px;
 }
 .about-list li {
   line-height: 1.45;
   font-size: 22px;
   font-weight: bold;
   margin-top: 28px;
+}
+
+.brand-container {
+  background-color: black;
+}
+
+.brand-content {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-bottom: 160px;
+}
+
+.brand-text {
+  text-align: center;
+  color: aliceblue;
+}
+.brand-text h2 {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+.brand-text p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+.brand-text .brand-chinese {
+  margin-top: 32px;
+  margin-bottom: 68px;
+  font-style: normal;
+}
+.brand-text .brand-chinese span {
+  font-style: italic;
 }/*# sourceMappingURL=all.css.map */

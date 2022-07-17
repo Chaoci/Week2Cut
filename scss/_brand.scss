@@ -1,0 +1,29 @@
+.brand-container{
+    background-color: black;
+}
+.brand-content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 56px;
+    padding-bottom: 160px;
+}
+.brand-text{
+    text-align: center;
+    color: aliceblue;
+    h2{
+        margin-bottom: 12px;
+        font-weight: bold;
+    }
+    p{
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    .brand-chinese{
+        margin-top: 32px;
+        margin-bottom: 68px;
+        font-style: normal;
+        span{
+            font-style: italic;
+        }
+    }
+}
