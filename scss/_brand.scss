@@ -1,5 +1,6 @@
 .brand-container{
     background-color: black;
+    border:1px solid #707070;
 }
 .brand-content{
     width: 1200px;
@@ -9,7 +10,7 @@
 }
 .brand-text{
     text-align: center;
-    color: aliceblue;
+    color: #ffffff;
     h2{
         margin-bottom: 12px;
         font-weight: bold;
@@ -18,6 +19,10 @@
         line-height: 1.5;
         font-size: 20px;
     }
+    .brand-en{
+        font-size: 24px;
+        line-height: 1.5;
+    }
     .brand-chinese{
         margin-top: 32px;
         margin-bottom: 68px;
@@ -25,5 +30,16 @@
         span{
             font-style: italic;
         }
+    }
+}
+.brand-picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .brand-pic-two{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
     }
 }
